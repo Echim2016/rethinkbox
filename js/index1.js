@@ -48,7 +48,7 @@ function inIframe() {
 
      var randomquote = 0;
      var randomcolor = "";
-     var currentQuote = "迴響隨身錦囊報給你知，點擊「說說看」抽出一個錦囊！";
+     var currentQuote = "累了嗎？別忘了這裡有一些靈感給你，點擊「來點靈感」開始漫遊！";
 
 
      $.getJSON('https://spreadsheets.google.com/feeds/list/1JMQMEp269AJuPhaFJYjvePRlaWWTSD2NyeVx-VG6F7E/od6/public/values?alt=json', function (data){

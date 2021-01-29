@@ -1,6 +1,6 @@
 
 var $form = $('#contactForm'),
-    url = 'https://script.google.com/macros/s/AKfycbyka_VfjwoIsVAInzmto_jSxf-UClo5-gjbHuiNgn6caG48Qys/exec'
+    url = 'https://script.google.com/macros/s/AKfycbxdJpbagEzUmkKnVmOA-LEfeVr4JUhyPDBiF69dqsPq-rUdp2sc/exec'
 
 $('#submit-form').on('click', function(e) {
   e.preventDefault();
@@ -13,7 +13,7 @@ $('#submit-form').on('click', function(e) {
     success: function(response){
       Swal.fire({
         type: 'success',
-        title: 'weeee！！已收到你的回應囉！',
+        title: '已收到你的回應囉！',
         background: '#DCDCDC',
         showConfirmButton: false,
         timer: 1800
