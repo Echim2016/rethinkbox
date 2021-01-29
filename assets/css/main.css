@@ -222,7 +222,7 @@ input, select, textarea {
 		font-size: 1.5rem;
 		font-weight: 400;
 		line-height: 1.4;
-		letter-spacing: 0.8rem;
+		letter-spacing: 0.4rem;
 	}
 
 	h3 {
@@ -244,12 +244,12 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 1.75rem;
+			font-size: 1.25rem;
 			line-height: 1.4;
 		}
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 1.00em;
 			line-height: 1.5;
 		}
 
